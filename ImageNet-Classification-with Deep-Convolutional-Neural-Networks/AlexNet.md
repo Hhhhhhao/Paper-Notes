@@ -32,17 +32,17 @@ The authors proposed a large, deep convolutional network that can classify Image
 
    8th fully connected layer: 1000 neutrons, softmax activate
 
-   #### ![model architecture](/Users/leon/Documents/papers/notes/images/alexnet1.jpg)
+   #### ![model architecture](./res/alexnet1.jpg)
 
 2. #### ReLU Nonlinearity
 
    sigmoid and tanh activations are saturating nonlinearities so the training time of using them are much slower than using the non-saturating nonlinearities such as ReLU
 
-   ![ReLU](/Users/leon/Documents/papers/notes/images/alexnet2.jpg)
+   ![ReLU](./res/alexnet2.jpg)
 
 3. #### Local Response Normalization
 
-   ![Response norm](/Users/leon/Documents/papers/notes/images/alexnet3.jpg)
+   ![Response norm](./res/alexnet3.jpg)
 
 4. #### Overlapping Pooling
 
@@ -62,4 +62,4 @@ The authors proposed a large, deep convolutional network that can classify Image
 
 ------
 
-![results](/Users/leon/Documents/papers/notes/images/alexnet4.jpg)
+![results](./res/alexnet4.jpg)

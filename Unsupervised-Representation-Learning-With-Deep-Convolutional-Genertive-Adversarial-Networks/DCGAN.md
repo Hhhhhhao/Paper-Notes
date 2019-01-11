@@ -2,7 +2,7 @@
 
 ------
 
-[Alec Radford et al. *Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks*](http://arxiv.org/abs/1511.06434)
+[UnAlec Radford et al. *Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks*](http://arxiv.org/abs/1511.06434)
 
 ### Abstract & Intro
 

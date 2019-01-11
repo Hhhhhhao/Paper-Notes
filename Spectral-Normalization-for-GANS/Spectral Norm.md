@@ -54,13 +54,13 @@ which is equivalent to ==the largest singular value of A==.
 
 Therefore, for a linear layer $g(h) = Wh$, the norm is given by $\|g\|_{Lip} = sup_h\sigma(\nabla{g(h)}) = sup_h\sigma(W) = \sigma(W)$. 
 
-![](images/specnorm2.jpg)
+![](./res/specnorm2.jpg)
 
 #### Fast Approximation of the spectral Norm
 
 Instead of naively apply singular value decomposition to compute the $\sigma{W}$ at each round of the algorithm, we use ==the power iteration method== to estimate it.
 
-![](images/specnorm3.jpg)
+![](./res/specnorm3.jpg)
 
 
 

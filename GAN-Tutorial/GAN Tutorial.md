@@ -10,9 +10,9 @@ GANs foucus on primarily on sample generation, though it's possible to design GA
 
 Generative models, and GANs in particular, enable machine learning to work with multi-modal outputs. 
 
-![image-20180726163020834](images/gantutorial1.png)
+![image-20180726163020834](./res/gantutorial1.png)
 
-![](/Users/leon/Documents/papers/notes/images/gantutorial2.jpg)
+![](./res/gantutorial2.jpg)
 
 
 
@@ -28,7 +28,7 @@ The basic idear of maximum likelihood is to define a model that provides an esti
 
 The principle of maximum likelihood is choose the parameters for the model that maximize the likelihood of the training data. (Normally done in log space). The process of illustrated as follows:
 
-![image-20180726164128991](images/gantutorial3.jpg)
+![image-20180726164128991](./res/gantutorial3.jpg)
 
 
 
@@ -40,7 +40,7 @@ In parctice, we do not have access to $p_{data}$ itself, but only to a training 
 
 #### A taxonomy of deep generative models
 
-![image-20180726164908433](images/gantutorial4.jpg)
+![image-20180726164908433](./res/gantutorial4.jpg)
 
 ##### Tractable explict models
 
@@ -58,8 +58,6 @@ Drawbacks: cannot be utilized in parallel, hence require a huge amount of comput
 
 **Variational approximations** methods define a lower bound: 
 
-![image-20180726182721899](/var/folders/hm/3v5zhdkd715dxdxh5tzvx3yc0000gn/T/abnerworks.Typora/image-20180726182721899.png)
-
 A learning algorithm that maximizes $L$ is guranteed to obtain at least as high a value of the log-likelihood as it does of $L$.
 
 
@@ -70,7 +68,7 @@ A learning algorithm that maximizes $L$ is guranteed to obtain at least as high 
 
 #### The GAN frame work
 
-![image-20180726184043333](images/gantutorial5.jpg)
+![image-20180726184043333](./res/gantutorial5.jpg)
 
 #### Cost functions
 
@@ -80,7 +78,7 @@ A learning algorithm that maximizes $L$ is guranteed to obtain at least as high 
    $$
    which is a standard cross-entropy cost that is minized when training a standard binary classifier with a sigmoid output. The only difference is that the classifier is trained on two minibatches of data; one coming from the dataset, where the lable is 1, and one coming from the generator, where the label is 0
 
-   
+
 
    By training the discriminator, we are able to estimate of the ratio:
    $$
@@ -96,11 +94,11 @@ A learning algorithm that maximizes $L$ is guranteed to obtain at least as high 
    $$
    Zero-sum games are also called **minimax** games because their solution involves minimization in an outer lopp and maximization in an inner loop.
 
-   
+
    $$
    \theta^{(G)} = \mathop{\arg\min}_{\theta^{(G)}}\max_{\theta_{(D)}}V(\theta^{(D)},\theta^{(G)})
    $$
-   
+
 
    ==Learning in this game resembles minizing the Jensen-Shannon divergence between the data and the model distribution,== and that the game converges to its equailibrium if both player's policies can be updated directly in function space.
 
@@ -118,14 +116,8 @@ A learning algorithm that maximizes $L$ is guranteed to obtain at least as high 
 
    In the minimax game, the generator minimizes the log-probability of the discriminator being current. In this game, the generator maximizes the log-probability of the discriminator being mistaken.
 
-4. ![image-20180726194438645](images/gantutorial6.jpg)
+4. ![image-20180726194438645](./res/gantutorial6.jpg)
 
 5. Comparison between cost function
 
-   ![image-20180726194552860](images/gantutorial8.jpg)
-
-6. 
-
-   
-
-   
+   ![image-20180726194552860](./res/gantutorial8.jpg)

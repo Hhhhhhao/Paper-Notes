@@ -42,11 +42,11 @@ $$
 
 
 
-​         as illustrated in the following figure         ![](images/gan1.jpg)
+​         as illustrated in the following figure         ![](./res/gan1.jpg)
 
 The algorithms is as follows. Optimizing $D$ to completion in the inner loop of training is computationally prohibitive, and on finite datasets would results in overfitting. Instead, we alternate between $k$ steps of optimizing $D$ and one step of optimizing $G$. This results in $D$ being maintained near its optimal solution, so long as $G$ changes slowly enough.
 
-![](images/gan2.jpg)
+![](./res/gan2.jpg)
 
 Noteworthy is that, in practice, equation 1 may not provide sufficient gradient for $G$ to learn well. Early in training, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data. In this case, $\log((1 - D(G(z))))$ saturates. Therefore, rather than training $G$ to minimize $\log(1 - D(G(z)))$ we can train $G$ to maximize $\log{D(G(z))}$. This objective function results in the same fixed point of the dynamics of $G$ and $D$ but provides much stronger gradients early in learning.
 
@@ -89,6 +89,7 @@ Noteworthy is that, in practice, equation 1 may not provide sufficient gradient 
      $$
      V(G, D) = \lmoustache _xp_{data}(x)\log{D(x)}dx  + p_G(x)\log{(1 - D(x))}dx \quad\quad\quad (6)
      $$
+
 
 
 
@@ -159,7 +160,7 @@ Noteworthy is that, in practice, equation 1 may not provide sufficient gradient 
 
 1. adversarial nets are trained on MNIST, TFD, and CIFAR-10
 
-   ![image-20180724183708313](images/gan3.jpg)
+   ![image-20180724183708313](./res/gan3.jpg)
 
 
 

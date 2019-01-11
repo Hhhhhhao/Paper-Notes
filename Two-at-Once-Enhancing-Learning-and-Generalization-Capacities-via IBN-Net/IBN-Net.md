@@ -9,7 +9,7 @@
 - IBN-Net presents amazing domain generalization
 - Follows 2 rules: 1) to reduce feature variance caused by appearance in shallow layers while not interfering the content discrimination in deep layers, we only add IN layers to the shallow half of the CNNs. 2) to also preserves image content information in shallow layers, we replace the original BN layers to IN for a half of features and BN for the other half.
 
-![](/Users/leon/Documents/papers/notes/images/ibn1.jpg)
+![](./res/ibn1.jpg)
 
 ### Method
 
@@ -27,19 +27,19 @@ Networks:
 
 for BN based CNNs, the feature divergence caused by appearance variance mainly liews in shallow half of the CNN, while the feature discrimination for content is high in deep layers, but also exists in shallow layers. Therefore, introdution of INs follws two rules: 1) in order to not diminish the content discrimination in deep features, we do not add INs in the last part of CNNs, 2) in order to also preserve content information in shallow layers, we keep part of the batch normalized features.
 
-![](/Users/leon/Documents/papers/notes/images/ibn2.jpg)
+![](./res/ibn2.jpg)
 
-![](/Users/leon/Documents/papers/notes/images/ibn3.jpg)
+![](./res/ibn3.jpg)
 
 ### Results
 
 ------
 
-![](/Users/leon/Documents/papers/notes/images/ibn4.jpg)
+![](./res/ibn4.jpg)
 
-![](/Users/leon/Documents/papers/notes/images/ibn5.jpg)
+![](./res/ibn5.jpg)
 
-![](/Users/leon/Documents/papers/notes/images/ibn6.jpg)
+![](./res/ibn6.jpg)
 
-![](/Users/leon/Documents/papers/notes/images/ibn7.jpg)
+![](./res/ibn7.jpg)
 

@@ -46,6 +46,8 @@ The authors proposed a large, deep convolutional network that can classify Image
 
 4. #### Overlapping Pooling
 
+   A pooling layer can be thought of as consisting of a grid of pooling units spaced $s$ pixels apart, each summarizing a neighborhood of size $z \times z$ centered at the location of the pooling unit. If we set $s = z$, we obtain traidition local pooling as commonly employed in CNNs. If we set $s < z$, we obtain overlapping pooling. Throughout their work, they used $s = 2$ and $z = 3$. 
+
 5. #### Data augmentation
 
    (1) extract 224 patches from 256 images and their horizontal reflection
@@ -54,7 +56,13 @@ The authors proposed a large, deep convolutional network that can classify Image
 
 6. #### Training Details
 
-   batch size of 128, learning rate initialize at 0.01 with a decay rate
+   (1) batch size of 128
+
+   (2) use of drop out
+
+   (3) momentum of 0.9 and weight decay of 0.0005
+
+   (4) learning rate was intialized at 0.01 and reduced 3 times prior to termination, which is devided by 10 at each reduction.
 
 
 

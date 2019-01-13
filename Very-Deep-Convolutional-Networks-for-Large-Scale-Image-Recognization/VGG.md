@@ -41,7 +41,7 @@
 
 This paper investigate several ConvNet confirgurations, from 11 weights layers (8 conv, 3 fc) to 19 weighted layers The width of network are rather small (channels), starting from 64 in the first layer and then increasing by a factor of 2 after each max-pooling layer, until it reaches 512.
 
-![image_1](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/1.png)
+![image_1](./res/1.png)
 
 
 
@@ -73,7 +73,7 @@ This paper investigate several ConvNet confirgurations, from 11 weights layers (
 
 #### Single Scale Evalutaion
 
-![2](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/2.png)
+![2](./res/2.png)
 
 - First we notice LRN doesn't help with performance
 - Classification error decreases with the increased Conv depth
@@ -85,7 +85,7 @@ This paper investigate several ConvNet confirgurations, from 11 weights layers (
 
 #### Multi-Scale Evalutation
 
-![3](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/3.png)
+![3](./res/3.png)
 
 - scale jittering at testing test-time leads to better performance
 - deepest configurations perform the bset
@@ -94,20 +94,20 @@ This paper investigate several ConvNet confirgurations, from 11 weights layers (
 
 #### Multi-Crop Evalutaion
 
-![4](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/4.png)
+![4](./res/4.png)
 
 - evalutaion with multi-crop
 - Assess the complementarity of the 2 evalutaion techniques by averageing their softmax outputs
 
 #### ConvNet Fusion
 
-![6](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/6.png)
+![6](./res/6.png)
 
 combine the outputs of several models by averaging their soft-max posteriors, which improves the performance due to complementarity of the models
 
 #### Comparison with state-of-the-art in ILSVRC classifciation
 
-![7](/Users/leon/Projects/paper-notes/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognization/res/7.png)
+![7](./res/7.png)
 
 
 

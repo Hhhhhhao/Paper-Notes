@@ -75,3 +75,5 @@
 - **Max-pooling.** For $X_{n+1}(p) = max_{q\in \Omega(p)}X_n(q)$, where the element $p$ of the output feature map is computed by pooling over the corresponding spatial nerghborhood $\Omega(p)$ of the input. The subgradient is computed as  $\frac{\partial f}{\partial X_n} = \frac{\partial f}{\partial X_{n+1}(p)} \bold{1}(s = \mathop{\arg\max}_{q\in \Omega(p)}X_n(q))$. Here the argmax corresponds to the max-pooling "switch" in a DeconvNet
 - Apart from the RELU layer, computing the approximate feature map reconstruction $R_n$ using a DeconvNet is equivalent to computing the derivative $\frac{\partial f}{\partial X_n}$ using back-propagation, which is a part of our visualization algorithms.
 - Thus, a gradient-based visualisation can be seen as the generalisation of that of DeconvNet, since the gradient-based techiniques can be applied to the visualisation of activities in any layer, not just a convolutional one. 
+
+![4](./res/4.png)

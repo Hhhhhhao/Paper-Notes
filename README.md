@@ -6,7 +6,7 @@ The notes are writen in Latex syntax.
 1. Conditional Generative Adversarial Nets [[note](./Conditional-Generative-Adversarial-Nets/cGANs.md)][[paper](https://arxiv.org/abs/1411.1784)]
 2. Deep Inside Convolutional Networks Visualising Image Classification Models and Saliency Maps [[note](./Deep-Inside-Convolutional-Networks-Visualising-Image-Classification-Models-and-Saliency-Maps/CNN-Vis-Saliency-Maps.md)][[paper](https://arxiv.org/abs/1312.6034)]
 3. Deep Residual Learning for Image Recognization [[note](./Deep-Residual-Learning-for-Image-Recognition/ResNet.md)][[paper](https://arxiv.org/abs/1512.03385)]
-4. Densely Connected Convolutional Networks [[note](./Densely-Connected-Convolutional-Networks/DenseNet.md)][[paper](https://arxiv.org/abs/1608.06993)
+4. Densely Connected Convolutional Networks [[note](./Densely-Connected-Convolutional-Networks/DenseNet.md)][[paper](https://arxiv.org/abs/1608.06993)]
 5. NIPS 2016 Tutorial: Generative Adversarial Networks  [[note](./GAN-Tutorial/GAN.md)][[paper](https://arxiv.org/abs/1701.00160)]
 6. Generative Adversarial Nets [[note](./Generative-Adversarial-Nets/GAN.md)][[paper](https://arxiv.org/abs/1406.2661)]
 7. Going Deeper with Convolutions [[note](./Going-Deeper-with-Convolutions/GoogleNet.md)][[paper](https://arxiv.org/abs/1409.4842)]

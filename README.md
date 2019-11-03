@@ -2,6 +2,7 @@
 The notes are writen in Latex syntax.
 
 ## Content
+
 1. Conditional Generative Adversarial Nets [[note](./Conditional-Generative-Adversarial-Nets/cGANs.md)][[paper](https://arxiv.org/abs/1411.1784)]
 2. Deep Image Prior [[note](./Deep-Image-Prior/Deep-Image-Prior.md)][[paper](https://dmitryulyanov.github.io/deep_image_prior)]
 3. Deep Inside Convolutional Networks Visualising Image Classification Models and Saliency Maps [[note](./Deep-Inside-Convolutional-Networks-Visualising-Image-Classification-Models-and-Saliency-Maps/CNN-Vis-Saliency-Maps.md)][[paper](https://arxiv.org/abs/1312.6034)]

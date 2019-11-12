@@ -3,6 +3,12 @@ The notes are writen in Latex syntax.
 
 ## Content
 
+### Image Recognization
+1. Deep Residual Learning for Image Recognization [[note](./Deep-Residual-Learning-for-Image-Recognition/ResNet.md)][[paper](https://arxiv.org/abs/1512.03385)]
+2. Identity Mappings in Deep Residual Networks [[note](./Identity-Mappings-in-Deep-Residual-Networks/PreAct-ResNet.md)[paper](https://arxiv.org/abs/1603.05027)]
+3. Wide Residual Networks [[note](./Wide-Residual-Networks/wideResNet.md)[paper](https://arxiv.org/abs/1605.07146)]
+4. 
+
 1. Conditional Generative Adversarial Nets [[note](./Conditional-Generative-Adversarial-Nets/cGANs.md)][[paper](https://arxiv.org/abs/1411.1784)]
 2. Deep Image Prior [[note](./Deep-Image-Prior/Deep-Image-Prior.md)][[paper](https://dmitryulyanov.github.io/deep_image_prior)]
 3. Deep Inside Convolutional Networks Visualising Image Classification Models and Saliency Maps [[note](./Deep-Inside-Convolutional-Networks-Visualising-Image-Classification-Models-and-Saliency-Maps/CNN-Vis-Saliency-Maps.md)][[paper](https://arxiv.org/abs/1312.6034)]

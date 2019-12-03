@@ -6,7 +6,7 @@ The notes are writen in Latex syntax.
 ### Image Recognization
 1. Deep Residual Learning for Image Recognization [[note](./Deep-Residual-Learning-for-Image-Recognition/ResNet.md)][[paper](https://arxiv.org/abs/1512.03385)]
 2. Identity Mappings in Deep Residual Networks [[note](./Identity-Mappings-in-Deep-Residual-Networks/PreAct-ResNet.md)[paper](https://arxiv.org/abs/1603.05027)]
-3. Wide Residual Networks [[note](./Wide-Residual-Networks/wideResNet.md)[paper](https://arxiv.org/abs/1605.07146)]
+3. Wide Residual Networks [[note](./Wide-Residual-Networks/wideResNet.md) [paper](https://arxiv.org/abs/1605.07146)]
 4. Densely Connected Convolutional Networks [[note](./Densely-Connected-Convolutional-Networks/DenseNet.md)][[paper](https://arxiv.org/abs/1608.06993)]
 
 
@@ -14,7 +14,7 @@ The notes are writen in Latex syntax.
 ### Semi-Supervised Learning
 
 1. Temporal Ensembling for Semi-Supervised Learning [[paper](https://arxiv.org/abs/1610.02242)[note][./Temporal-Ensembling-for-Semi-Supervised-learning/TE.md]]
-2. Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results [[paper](https://papers.nips.cc/paper/6719-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results.pdf)[note](./Mean-Teachers-Are-Better-Role-Models- Weight-Averaged-Consistency-Targets -mprove-Semi-Supervised-Deep-Learning-Results/Mean-T.md)]
+2. Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results [[paper](https://papers.nips.cc/paper/6719-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results.pdf) [note](./Mean-Teachers-Are-Better-Role-Models- Weight-Averaged-Consistency-Targets -mprove-Semi-Supervised-Deep-Learning-Results/Mean-T.md)]
 
 
 ### CNN Architecture

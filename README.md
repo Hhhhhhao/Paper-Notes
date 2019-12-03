@@ -7,6 +7,7 @@ The notes are writen in Latex syntax.
 1. Deep Residual Learning for Image Recognization [[note](./Deep-Residual-Learning-for-Image-Recognition/ResNet.md)][[paper](https://arxiv.org/abs/1512.03385)]
 2. Identity Mappings in Deep Residual Networks [[note](./Identity-Mappings-in-Deep-Residual-Networks/PreAct-ResNet.md)[paper](https://arxiv.org/abs/1603.05027)]
 3. Wide Residual Networks [[note](./Wide-Residual-Networks/wideResNet.md)[paper](https://arxiv.org/abs/1605.07146)]
+4. Densely Connected Convolutional Networks [[note](./Densely-Connected-Convolutional-Networks/DenseNet.md)][[paper](https://arxiv.org/abs/1608.06993)]
 
 
 
@@ -16,8 +17,16 @@ The notes are writen in Latex syntax.
 2. Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results [[paper](https://papers.nips.cc/paper/6719-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results.pdf)[note](./Mean-Teachers-Are-Better-Role-Models- Weight-Averaged-Consistency-Targets -mprove-Semi-Supervised-Deep-Learning-Results/Mean-T.md)]
 
 
+### CNN Architecture
+1. Network in Network [[note](./Network-in-Network/NIN.md)][[paper](https://arxiv.org/abs/1312.4400)]
+2. Non-Local Neural Networks [[note](./Non-Local Neural Networks/NL.md)[paper](https://arxiv.org/abs/1711.07971)]
 
-### Others
+
+
+### CNN Viualization
+1. Deep Inside Convolutional Networks Visualising Image Classification Models and Saliency Maps [[note](./Deep-Inside-Convolutional-Networks-Visualising-Imag
+
+### Total
 
 1. Conditional Generative Adversarial Nets [[note](./Conditional-Generative-Adversarial-Nets/cGANs.md)][[paper](https://arxiv.org/abs/1411.1784)]
 2. Deep Image Prior [[note](./Deep-Image-Prior/Deep-Image-Prior.md)][[paper](https://dmitryulyanov.github.io/deep_image_prior)]

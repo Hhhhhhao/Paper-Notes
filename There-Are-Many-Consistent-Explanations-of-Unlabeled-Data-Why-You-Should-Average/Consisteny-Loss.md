@@ -6,7 +6,7 @@
 
 1. 在半监督学习中，Consistency Regularization取得了很好的结果
 2. 这篇文章在于分析，理解和提升consistency loss
-3. 前提需要理解[stochastic weight averaging （SWA）](https://arxiv.org/abs/1803.05407)， 简单来说就是取几个epoch的model把weight给average得到一个有更好generalization性能的模型
+3. 前提需要理解[stochastic weight averaging （SWA）](https://arxiv.org/abs/1803.05407)， 简单来说就是通过cyclic learning rate取几个epoch的model把weight给average得到一个有更好generalization性能的模型
 
 
 
@@ -68,5 +68,20 @@ $$
 
 ------
 
-上述分析表明，consistenly loss提供更diverse的training solution，因此把他们ensemble起来可以提供更准确的预测结果
+上述分析表明，consistenly loss提供更diverse的training solution，因此把他们ensemble起来可以提供更准确的预测结果。
 
+![3](./image/3.jpg)
+
+采用cyclic learning rate，并在lr最低时取student网络的权重来计算ensemble
+
+
+
+### Experiments
+
+------
+
+
+
+![image-20191217180837933](/Users/leon/Library/Application Support/typora-user-images/image-20191217180837933.png)
+
+SWA可以带来不小的提升

@@ -26,6 +26,9 @@ The notes are writen in Latex syntax.
 ### CNN Viualization
 1. Deep Inside Convolutional Networks Visualising Image Classification Models and Saliency Maps [[note](./Deep-Inside-Convolutional-Networks-Visualising-Imag
 
+### Train Strategy：
+1. Filter Response Normalization Layer: Eliminating Batch Dependence in the Training of Deep Neural Networks [[note][./Filter-Response-Normalization-Layer-Eliminating-Batch-Dependence-in-the-Training-of-Deep-Neural-Networks/FRN.md][paper][https://arxiv.org/abs/1911.09737]]
+
 ### Total
 
 1. Conditional Generative Adversarial Nets [[note](./Conditional-Generative-Adversarial-Nets/cGANs.md)][[paper](https://arxiv.org/abs/1411.1784)]

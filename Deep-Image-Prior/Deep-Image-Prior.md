@@ -28,7 +28,7 @@
 - To demonstrate the power of this parametrization, we consider inverse tasks, which can be expressed as energy minimization problems of the type
 
 - $$
-  x^{\star} = \min_xE(x; x_0) + R(x) 
+  x^{\star} = \min_xE(x; x_0) + R(x)
   $$
 
   where $E$ is a task-dependent data term, $x_0$ the noisy/low-resolution/occluded image, and $R(x)$ a regularizer.
